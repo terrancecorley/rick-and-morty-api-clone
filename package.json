@@ -30,12 +30,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/terrancecorley/ricky-and-morty-api-clone.git"
+    "url": "git+https://github.com/terrancecorley/rick-and-morty-api-clone.git"
   },
   "author": "Terrance Corley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/terrancecorley/ricky-and-morty-api-clone/issues"
+    "url": "https://github.com/terrancecorley/rick-and-morty-api-clone/issues"
   },
-  "homepage": "https://terrancecorley.com/ricky-and-morty-api-clone"
+  "homepage": "https://terrancecorley.com/rick-and-morty-api-clone"
 }

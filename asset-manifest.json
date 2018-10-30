@@ -1,14 +1,14 @@
 {
-  "main.css": "/ricky-and-morty-api-clone/static/css/main.e8973d1d.chunk.css",
-  "main.js": "/ricky-and-morty-api-clone/static/js/main.65d45957.chunk.js",
-  "main.js.map": "/ricky-and-morty-api-clone/static/js/main.65d45957.chunk.js.map",
-  "static/js/1.a700ff87.chunk.js": "/ricky-and-morty-api-clone/static/js/1.a700ff87.chunk.js",
-  "static/js/1.a700ff87.chunk.js.map": "/ricky-and-morty-api-clone/static/js/1.a700ff87.chunk.js.map",
-  "runtime~main.js": "/ricky-and-morty-api-clone/static/js/runtime~main.3720f88d.js",
-  "runtime~main.js.map": "/ricky-and-morty-api-clone/static/js/runtime~main.3720f88d.js.map",
-  "static/media/logo.svg": "/ricky-and-morty-api-clone/static/media/logo.5d5d9eef.svg",
-  "static/css/main.e8973d1d.chunk.css.map": "/ricky-and-morty-api-clone/static/css/main.e8973d1d.chunk.css.map",
-  "index.html": "/ricky-and-morty-api-clone/index.html",
-  "precache-manifest.a21208668876050677e7f92429a50876.js": "/ricky-and-morty-api-clone/precache-manifest.a21208668876050677e7f92429a50876.js",
-  "service-worker.js": "/ricky-and-morty-api-clone/service-worker.js"
+  "main.css": "/rick-and-morty-api-clone/static/css/main.e8973d1d.chunk.css",
+  "main.js": "/rick-and-morty-api-clone/static/js/main.72b20e7f.chunk.js",
+  "main.js.map": "/rick-and-morty-api-clone/static/js/main.72b20e7f.chunk.js.map",
+  "static/js/1.a700ff87.chunk.js": "/rick-and-morty-api-clone/static/js/1.a700ff87.chunk.js",
+  "static/js/1.a700ff87.chunk.js.map": "/rick-and-morty-api-clone/static/js/1.a700ff87.chunk.js.map",
+  "runtime~main.js": "/rick-and-morty-api-clone/static/js/runtime~main.d0c5ef5c.js",
+  "runtime~main.js.map": "/rick-and-morty-api-clone/static/js/runtime~main.d0c5ef5c.js.map",
+  "static/media/logo.svg": "/rick-and-morty-api-clone/static/media/logo.5d5d9eef.svg",
+  "static/css/main.e8973d1d.chunk.css.map": "/rick-and-morty-api-clone/static/css/main.e8973d1d.chunk.css.map",
+  "index.html": "/rick-and-morty-api-clone/index.html",
+  "precache-manifest.9a657b006faaaa569fea43c407bc8dac.js": "/rick-and-morty-api-clone/precache-manifest.9a657b006faaaa569fea43c407bc8dac.js",
+  "service-worker.js": "/rick-and-morty-api-clone/service-worker.js"
 }

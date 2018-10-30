@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ricky-and-morty-api-clone/precache-manifest.a21208668876050677e7f92429a50876.js"
+  "/rick-and-morty-api-clone/precache-manifest.9a657b006faaaa569fea43c407bc8dac.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ricky-and-morty-api-clone/index.html", {
+workbox.routing.registerNavigationRoute("/rick-and-morty-api-clone/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

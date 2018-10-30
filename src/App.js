@@ -1,10 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
+import './normalize.css';
 import schwifty from './assets/fonts/schwifty.woff';
 import schwifty2 from './assets/fonts/schwifty.woff2';
 import schwifty3 from './assets/fonts/schwifty.ttf';
+import SiteHeader from './components/SiteHeader';
 
 const GlobalStyle = createGlobalStyle`
+  // * Imports Styles
   @font-face {
     font-family: 'schwifty';
     src: 
@@ -15,26 +18,58 @@ const GlobalStyle = createGlobalStyle`
     font-style: normal;
   }
 
+  // * General
   *,
   *::before,
   *::after {
     box-sizing: inherit;
   }
 
-  :root {
+  html {
     box-sizing: border-box;
+  }
+
+  :root {
     font-size: 1rem;
 
-    --color--primary: ;
-    --color--secondary ;
-    --bg-color--primary ;
-    --bg-color--secondary ;
+    // * Color Names
+    --orange-peel: #FF9800;
+    --shark-black: #202329;
+    --mine-shaft: #333;
+    --silver-chalice: #9E9E9E;
+    --off-white: #FDFDFD;
+    --white-sand: #F5F5F5;
+
+    // * Colors
+    --color--primary: var(--orange-peel);
+    --color--secondary: var(--shark-black);
+    --color--tertiary: var(--silver-chalice); 
+    --bg-color--primary: var(--shark-black);
+    --bg-color--secondary: var(--off-white);
+    --bg-color-tertiary: var(--mine-shaft);
+
+    // * Fonts
     --font-family--primary 'Open Sans', sans-serif;
     --font-family--secondary: 'schwifty', 'Open Sans', sans-serif;
   }
 
   body {
     line-height: 1.5;
+    font-family: var(--font-family--primary);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
   }
 `
 
@@ -43,6 +78,7 @@ class App extends Component {
     return (
       <Fragment>
         <GlobalStyle />
+        <SiteHeader />
       </Fragment>
     );
   }

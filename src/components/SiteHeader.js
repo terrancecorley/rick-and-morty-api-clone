@@ -6,27 +6,35 @@ const Header = styled.header`
 `
 
 const MobileNav = styled.nav`
-  @media (min-width: 30em) {
-    display: none;
-  }
 `
 
 const Nav = styled.nav`
-  display: none;
-  @media (min-width: 30em) {
-    display: block;
+  
+`
+
+const BurgerMenu = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+
+  div {
+    border-radius: 4px;
+    height: 4px;
+    background-color: var(--bg-color--primary);
   }
 `
 
 export default function SiteHeader() {
   return (
     <Header>
-      <MobileNav>
-        <div>
+      <MobileNav className="is-displayed--mobile">
+        <BurgerMenu>
           <div></div>
           <div></div>
           <div></div>
-        </div>
+        </BurgerMenu>
         <ul>
           <li><a href="#">Mobile Nav</a></li>
           <li><a href="#">About</a></li>
@@ -40,7 +48,7 @@ export default function SiteHeader() {
         </ul>
       </MobileNav>
 
-      <Nav>
+      <Nav className="is-hidden--mobile">
         <ul>
           <li><a href="#">Reg Nav</a></li>
           <li><a href="#">About</a></li>

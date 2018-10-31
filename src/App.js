@@ -71,6 +71,31 @@ const GlobalStyle = createGlobalStyle`
   img {
     max-width: 100%;
   }
+
+  // * Helper Classes
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  // * Stateful Classes
+  .is-hidden--mobile {
+    display: none;
+    @media (min-width: 30em) {
+      display: block;
+    }
+  }
+
+  .is-displayed--mobile {
+    @media (min-width: 30em) {
+      display: none;
+    }
+  }
 `
 
 class App extends Component {

@@ -83,6 +83,10 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
+  .hidden {
+    display: none;
+  }
+
   // * Stateful Classes
   .is-hidden--mobile {
     display: none;

@@ -56,6 +56,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1.5;
     font-family: var(--font-family--primary);
+
+    padding: 0 4%;
   }
 
   a {
